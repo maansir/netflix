@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from './Header';
+import Login from './Login';
+// import Browse from './Browse';
 
 const Body = () => {
   return (
-    <div className="bg-cover bg-center w-full h-screen flex justify-center align-center py-10">
-  <form className='bg-black opacity-60'>
-    <input type='text' placeholder='Fistname' />
-  </form>
+    <div className="home_page bg-cover w-full h-screen">
+  <Header/>
+  <Login/>
+  {/* <Browse/> */}
     </div>
   )
 }
